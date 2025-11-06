@@ -1,16 +1,65 @@
-# React + Vite
+# 📰 Media News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based Media News Application** that fetches and displays the latest news articles using the [MediaStack API](https://mediastack.com/).  
+Users can search for specific topics (like "technology", "sports", "politics", etc.) and view news in a clean, responsive, and visually appealing layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔍 Search news by keyword  
+- 📰 Fetches real-time articles from MediaStack API  
+- 📱 Responsive layout for all devices  
+- 💡 Modern UI with hover effects  
+- ⚡ Fast and minimal design using React + Vite  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖼️ App Screenshot
 
-## Expanding the ESLint configuration
+Here’s a real preview of the **Media News App** 👇  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Media News App Screenshot](./mediaapp.png)
+
+> Example Search: **india**
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js  
+- **Styling:** CSS3  
+- **API:** MediaStack  
+- **Build Tool:** Vite  
+
+---
+
+## ⚙️ Installation & Setup
+
+# Clone the repository 
+git clone https://github.com/aishwaryash775/media-news-app.git
+cd media-news-app
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+➡️ Replace your API key in `App.jsx`:
+javascript
+const API_KEY = 'YOUR_API_KEY_HERE';
+Get your key from [https://mediastack.com/](https://mediastack.com/).
+
+## 👩‍💻 Author
+**Aishwarya Santosh Shinde**  
+🎓 BE Computer Engineering  
+💻 Passionate about Frontend Development & UI Design  
+
+---
+
+## 🪪 License
+Licensed under the **MIT License** – free to use and modify.
+
+---
+
+## 🌟 Acknowledgments
+- [MediaStack](https://mediastack.com/) for the free News API  
+- [React](https://react.dev/) for frontend framework inspiration  
